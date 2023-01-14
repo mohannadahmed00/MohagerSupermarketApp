@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:orientation="vertical"
+    tools:context=".fragments.ProfileFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/profile"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/background_white"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/background_white"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_name_fragment_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_email_fragment_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_birthdate_fragment_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_edit_fragment_profile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/edit"
+            android:padding="12dp"
+            android:src="@drawable/ic_edit" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_offer_fragment_profile"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="@string/your_points"
+        android:textColor="@color/teal_200"
+        app:icon="@drawable/ic_offer"
+        app:strokeColor="@color/teal_200"
+        app:strokeWidth="2dp" />
+
+
+    <Button
+        android:id="@+id/btn_address_fragment_profile"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="@string/my_addresses"
+        app:icon="@drawable/ic_address" />
+
+    <Button
+        android:id="@+id/btn_orders_fragment_profile"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="@string/my_orders"
+        app:icon="@drawable/ic_cart" />
+
+
+    <TextView
+        android:id="@+id/tv_logout_fragment_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/logout"
+        android:textColor="@color/gray"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+

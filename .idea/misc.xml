@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/drawable/background_red.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/drawable/background_white.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/drawable/background_white_no_ripp.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/drawable/ic_add.xml" value="0.16574074074074074" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/drawable/ic_arrow_drop.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/drawable/ic_cart.xml" value="0.16574074074074074" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/drawable/my_spinner_style.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/drawable/my_spinner_style_gray.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/drawable/spinner_style.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/activity_category.xml" value="0.2" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/activity_main.xml" value="0.1603336422613531" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/activity_register.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/activity_splash.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/activity_upload.xml" value="0.2" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/activity_verification.xml" value="0.25" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/fragment_basket.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/fragment_dairy.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/fragment_drink.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/fragment_grocery.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/fragment_home.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/fragment_items.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/fragment_login.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/fragment_more.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/fragment_oil.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/fragment_search.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/h_item.xml" value="0.25" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/my_text_spinner.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mohanad/AndroidStudioProjects/MySupermarket/app/src/main/res/layout/v_item.xml" value="0.33" />
+        <entry key="..\:/Users/Mohanad/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_dropdown_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mohanad/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_item.xml" value="0.17685185185185184" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

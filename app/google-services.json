@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559744640409",
+    "project_id": "my-supermarket-69429",
+    "storage_bucket": "my-supermarket-69429.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559744640409:android:eb18452eb251be962bdf08",
+        "android_client_info": {
+          "package_name": "com.example.mysupermarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559744640409-e3mr8ie10ne24cprlivgk4urjafdpgpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZwOqBbtDXRMTftq4H01mCrp1aPk77VHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559744640409-e3mr8ie10ne24cprlivgk4urjafdpgpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

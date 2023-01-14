@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:orientation="vertical"
+    tools:context=".activities.UploadActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_add_item_activity_upload"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:contentDescription="@string/item"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_add" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <RadioButton
+            android:id="@+id/rb_item_activity_upload"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:hint="@string/unit"
+            android:textColor="@color/purple_700" />
+
+        <RadioButton
+            android:id="@+id/rb_weight_activity_upload"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:hint="@string/weight"
+            android:textColor="@color/purple_700" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/s_category_activity_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/my_spinner_style"
+        android:padding="5dp" />
+
+
+    <EditText
+        android:id="@+id/et_type_activity_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_white"
+        android:hint="@string/product_type"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColor="@color/purple_700" />
+
+    <EditText
+        android:id="@+id/et_name_activity_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_white"
+        android:hint="@string/product_name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColor="@color/purple_700" />
+
+    <LinearLayout
+        android:id="@+id/ll_unit_activity_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="gone">
+
+
+        <EditText
+            android:id="@+id/et_unit_name_activity_upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/background_white"
+            android:hint="@string/unit_name"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textColor="@color/purple_700" />
+
+        <LinearLayout
+            android:id="@+id/ll_unit_weight_activity_upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_unit_des_activity_upload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/background_white"
+                android:hint="@string/description"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textColor="@color/purple_700" />
+
+            <EditText
+                android:id="@+id/et_unit_weight_activity_upload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/background_white"
+                android:hint="@string/unit_weight"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:padding="5dp"
+                android:textColor="@color/purple_700" />
+
+            <Spinner
+                android:id="@+id/s_weights_unit_activity_upload"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_spinner_style"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/et_unit_num_activity_upload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/background_white"
+                android:hint="@string/num_of_units"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textColor="@color/purple_700" />
+
+            <EditText
+                android:id="@+id/et_unit_price_activity_upload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_white"
+                android:hint="@string/unit_price"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textColor="@color/purple_700" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_sub_pack_num_activity_upload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/background_white"
+                android:hint="@string/num_of_sub_packs"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textColor="@color/purple_700" />
+
+            <EditText
+                android:id="@+id/et_sub_pack_price_activity_upload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_white"
+                android:hint="@string/sub_pack_price"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textColor="@color/purple_700" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_pack_num_activity_upload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/background_white"
+                android:hint="@string/num_of_packs"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textColor="@color/purple_700" />
+
+            <EditText
+                android:id="@+id/et_pack_price_activity_upload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_white"
+                android:hint="@string/pack_price"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textColor="@color/purple_700" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_weight_activity_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/et_weight_stock_activity_upload"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="2"
+            android:background="@drawable/background_white"
+            android:hint="@string/weight_in_stock"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:textColor="@color/purple_700" />
+
+        <EditText
+            android:id="@+id/et_weight_price_activity_upload"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="2"
+            android:background="@drawable/background_white"
+            android:hint="@string/price_per_kg"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:textColor="@color/purple_700" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="1.5" />
+
+    <Button
+        android:id="@+id/btn_activity_upload"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/upload"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_inactive_activity_upload"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/purple_600"
+        android:text="@string/upload"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:visibility="visible"
+        app:rippleColor="@color/trans" />
+
+</LinearLayout>

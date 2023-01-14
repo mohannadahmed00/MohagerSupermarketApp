@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:orientation="vertical"
+    tools:context=".activities.RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_first_name_activity_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:autofillHints="@string/first_name"
+        android:background="@drawable/background_white"
+        android:gravity="center"
+        android:hint="@string/first_name"
+        android:importantForAutofill="yes"
+        android:inputType="text"
+        android:textColor="@color/purple_700" />
+
+    <EditText
+        android:id="@+id/et_last_name_activity_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:autofillHints="@string/last_name"
+        android:background="@drawable/background_white"
+        android:gravity="center"
+        android:hint="@string/last_name"
+        android:importantForAutofill="yes"
+        android:inputType="text"
+        android:textColor="@color/purple_700" />
+
+    <EditText
+        android:id="@+id/et_mail_activity_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:autofillHints="@string/email"
+        android:background="@drawable/background_white"
+        android:gravity="center"
+        android:hint="@string/email"
+        android:importantForAutofill="yes"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/purple_700" />
+
+    <EditText
+        android:id="@+id/tv_age_activity_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:autofillHints="@string/birthdate"
+        android:background="@drawable/background_white"
+        android:focusable="false"
+        android:gravity="center"
+        android:hint="@string/birthdate"
+        android:inputType="date"
+        android:textColor="@color/purple_700" />
+
+    <EditText
+        android:id="@+id/et_invitation_code_activity_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/background_white"
+        android:gravity="center"
+        android:hint="@string/invitation_code"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="@color/purple_700" />
+
+
+    <TextView
+        android:id="@+id/ch_terms_activity_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="@string/by_clicking_sign_up_you_agree_to_our_terms_data_policy" />
+
+    <Button
+        android:id="@+id/btn_register_activity_register"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_in_register_activity_register"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_600"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:visibility="visible"
+        app:rippleColor="@color/trans" />
+
+
+</LinearLayout>

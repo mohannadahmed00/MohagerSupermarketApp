@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:orientation="vertical"
+    tools:context=".fragments.HomeFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:src="@drawable/mohager_logo_red"
+        android:contentDescription="@string/home" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_weight="2"
+        app:cardCornerRadius="20dp">
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vp_offers_fragment_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_white" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <GridView
+        android:id="@+id/gv_cat_fragment_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:listSelector="@color/trans"
+        android:numColumns="auto_fit"
+        android:scrollbars="none" />
+
+
+</LinearLayout>
